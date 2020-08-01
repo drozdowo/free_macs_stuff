@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en_CA">
+  <link rel="stylesheet" type="text/css" href="./css.css" />
+  <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Circlek" />
+    <meta name="twitter:title" content="Rock Paper Prizes" />
+    <meta
+      name="twitter:description"
+      content="Challenge a Circle K employee at Rock Paper Scissors for a chance to win weekly and grand prizes!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://circlekgames.ca/images/metadata/ec_tw-rockpaperprizes.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Challenge a Circle K employee at Rock Paper Scissors for a chance to win weekly and grand prizes!"
+    />
+    <meta property="og:url" content="https://circlekgames.ca/" />
+    <meta property="og:title" content="Rock Paper Prizes" />
+    <meta
+      property="og:description"
+      content="Challenge a Circle K employee at Rock Paper Scissors for a chance to win weekly and grand prizes!"
+    />
+    <meta
+      property="og:image"
+      content="https://circlekgames.ca/images/metadata/ec_fb-rockpaperprizes.png"
+    />
+    <meta property="og:site_name" content="Rock Paper Prizes" />
+    <meta property="fb:app_id" content="1501288506831105" />
+    <title>Rock Paper Prizes</title>
+  </head>
+
+  <header class="top-header">
+    <a href="https://circlekgames.ca/"
+      ><div class="header-left">
+        <div class="en">
+          <img
+            class="logo"
+            src="https://circlekgames.ca/static/media/ck-logo-pos.fb807ea8.svg"
+            alt="Circle K/Mac's Logo"
+          />
+        </div>
+      </div>
+    </a>
+  </header>
+
+  <div class="section2">
+    <center>
+      <img src="https://i.imgur.com/5j1a6sD.png" />
+    </center>
+  </div>
+<center>
+  <section class="sc-fznyAO bbDdWf">
+    <div class="sc-fzoCCn bgeFQD">
+      <div class="sc-fzoPby cSPfCG">
+        <div class="picofwin">
+          <img
+            id="prizeimg"
+            src="https://circlekgames.ca/images/prizes/ec_cp-favouriteswater-free.png"
+          />
+        </div>
+        <h2 class="youwon color">You won a</h2>
+        <h3 id="prizeName" class="prize color">NAME</h3>
+        <h4 id="prizeDetails" class="size color">DETAILS</h4>
+        <div class="sc-fznzqM kcMtBa">
+          <h2 id="countdown" class="countdown color">5:00</h2>
+          <p class="instructions color">Show this screen to the cashier now.</p>
+          <div id="redeemedTime" class="redeemed">REDEEMED </div>
+          <img
+            id="barcode"  
+            src="https://circlekgames.ca/images/barcodes/rpp20-favourites-water-free.png"
+            class="barcode"
+          />
+          <h3 id="plu" class="smalltext bigtext">⠀⠀PLU#</h3>
+          <div id="expiry" class="expiry color">Must be redeemed by <br />August 15, 2020</div>
+        </div>
+      </div>
+      <div class="smalltext">
+        You can gift this coupon to someone else or use it yourself. To gift it,
+        just press “gift” to reveal a secret link that you can send to someone
+        else. To use it, they will need a mobile phone number with access to
+        data.
+      </div>
+      <div class="smalltext">
+        Must be redeemed in front of the cashier. Pushing the Redeem button will
+        begin a 5-minute timer and reveal the code for the cashier to use. Once
+        the 5-minute timer is up, this coupon will expire and cannot be reused.
+        In order to be valid, the countdown timer must be counting down. Valid
+        only at participating Circle K and Mac’s Convenience Stores in Ontario.
+      </div>
+    </div>
+    <div style="padding-bottom: 2rem;">
+      <button class="sc-fzqAbL icRIgR" type="submit" readonly="" width="288px">
+        <a
+          href="https://www.circlek.com/store-locator"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button-link"
+          >Store Locator</a
+        >
+      </button>
+    </div>
+</center>
+
+<script> 
+    function decrementTimer(){
+        var val = document.getElementById('countdown').innerHTML;
+        var min = val.split(':')[0];
+        var sec = val.split(':')[1];
+
+        if (sec > 0){
+            sec--;
+            if (sec < 10){
+                sec = "0" + sec;
+            }
+        } else {
+            min--;
+            sec = 59;
+        }
+
+        document.getElementById('countdown').innerHTML = (min + ":" + sec);
+
+    }
+
+    $(document).ready(function() {
+        const monthNames = ["JAN", "FEB", "March", "April", "May", "June",
+  "July", "AUG", "SEPT", "October", "November", "December"
+];
+        var location = window.location.href;
+        var prize = location.split('=')[1];
+        var now = new Date();
+        var ampm = now.getHours() > 12? "pm":"am";
+        document.getElementById('redeemedTime').innerHTML = "REDEEMED " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear() + " " + now.getHours()%12 + ":" + now.getMinutes() + ":" + now.getSeconds() + " " + ampm;
+
+        //get prize info
+        $.get('https://circlekgames.ca/api/prizes?prize_id=' + prize,  // url
+      function (data, textStatus) {  // success callback
+        var info = data[0];
+        var barcode = info.barcode;
+        var win = info.win_sentence_en;
+        var details = info.details_en;
+        var plu = info.plu;
+        var name = info.name_en;
+        var image = info.image_en;
+
+        $('#barcode').attr("src", 'https://circlekgames.ca/images/barcodes/' + barcode);
+        document.getElementById('prizeimg').src = 'https://circlekgames.ca/images/prizes/' + image
+        document.getElementById('prizeName').innerHTML = name;
+        document.getElementById('prizeDetails').innerHTML = details;
+        $("#plu").html("⠀⠀PLU#" + plu);
+
+    });
+
+
+        setInterval(decrementTimer, 1000);
+});
+</script>
+  </section>
+</html>

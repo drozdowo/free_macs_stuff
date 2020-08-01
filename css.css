@@ -1,0 +1,155 @@
+.top-header {
+  height: 4.25rem !important;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(100, 32, 2);
+  padding: 0px 1rem 0px 0.2rem;
+}
+
+.section2 {
+  height: 60px;
+  width: 100%;
+}
+
+.section2 img {
+  height: 60px;
+  width: 280px;
+}
+
+.picofwin img {
+  height: 150px;
+  width: 250px;
+}
+
+.header-left {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  background-image: linear-gradient(
+    rgb(252, 242, 167),
+    rgb(231, 209, 115),
+    rgb(231, 209, 96),
+    rgb(220, 205, 115)
+  );
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Gotham Light", Arial, Helvetica, sans-serif;
+}
+
+.instructions {
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0.25rem 0px;
+}
+
+.barcode {
+  height: 200px !important;
+  width: 288px !important;
+}
+
+.redeemed {
+  margin-top: 0.5rem;
+  font-family: "Gotham Black", sans-serif;
+  color: red;
+  font-size: 1.7rem;
+  line-height: 1.65rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.color {
+  color: rgb(100, 32, 2);
+}
+
+.countdown {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 5rem;
+  line-height: 4.25rem;
+  margin: 1rem 0px;
+}
+
+.expiry {
+  font-family: "Gotham Black", Arial;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  max-width: 24rem;
+  text-align: center;
+  margin: 1.5rem auto 1rem;
+  padding: 0px 1.5rem;
+}
+
+.size {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -3px;
+}
+
+.youwon {
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0px 0px;
+}
+
+.prize {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+}
+
+.bigtext {
+  font-size: 2.5rem !important;
+  text-align: center;
+}
+
+.smalltext {
+  font-family: "Gotham Light", Arial;
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-align: left;
+  max-width: 24rem;
+  margin: 1.5rem auto 1rem;
+  padding: 0px 1.5rem;
+  color: rgb(100, 32, 2);
+}
