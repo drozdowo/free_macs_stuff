@@ -1,0 +1,191 @@
+id: 3 code(plu): 6517 name: Caramilk desc: 50g • Regular size
+
+id: 8 code(plu): 6541 name: Mr. Big Buy One Get One desc: 60g • Regular size
+
+id: 4 code(plu): 6539 name: Caramilk Buy One Get One desc: 50g • Regular size
+
+id: 1 code(plu): 6509 name: Dentyne desc: 12 pcs  • Any Flavour
+
+id: 11 code(plu): 6522 name: Crunchie desc: 44g • Regular size
+
+id: 5 code(plu): 6519 name: Wunderbar desc: 58g • Regular size
+
+id: 2 code(plu): 6534 name: Dentyne Buy One Get One desc: 12 pcs  • Any Flavour
+
+id: 9 code(plu): 6521 name: Cadbury Oreo desc: 38g • Regular size
+
+id: 6 code(plu): 6540 name: Wunderbar Buy One Get One desc: 58g • Regular size
+
+id: 12 code(plu): 6543 name: Crunchie Buy One Get One desc: 44g • Regular size
+
+id: 10 code(plu): 6542 name: Cadbury Oreo Buy One Get One desc: 38g • Regular size
+
+id: 13 code(plu): 6510 name: AHA Sparkling Water desc: 500ml • Any Flavour
+
+id: 14 code(plu): 6512 name: Peace Tea desc: 695ml • Any Flavour
+
+id: 15 code(plu): 6513 name: Powerade desc: 710ml • Any Flavour
+
+id: 7 code(plu): 6520 name: Mr. Big desc: 60g • Regular size
+
+id: 17 code(plu): 6536 name: Nestea Buy One Get One desc: 500ml • Any Flavour
+
+id: 16 code(plu): 6535 name: Coke Energy Buy One Get One desc: 310ml • Any Flavour
+
+id: 19 code(plu): 6537 name: Rockstar Buy One Get One desc: 473ml • Any Flavour
+
+id: 23 code(plu): 6523 name: Pepsi Zero Sugar desc: 591ml • Any Flavour
+
+id: 18 code(plu): 6515 name: Rockstar desc: 473ml • Any Flavour
+
+id: 22 code(plu): 6514 name: Pepsi Zero Sugar desc: 591ml • Any Flavour
+
+id: 20 code(plu): 6516 name: Crush desc: 473ml • Any Flavour
+
+id: 29 code(plu): 6508 name: Reese Outrageous desc: 41g • Regular size
+
+id: 27 code(plu): 6526 name: Red Bull desc: 250ml • Any Variety
+
+id: 24 code(plu): 6544 name: Pepsi Zero Sugar Buy One Get One desc: 591ml • Any Flavour
+
+id: 21 code(plu): 6538 name: Crush Buy One Get One desc: 473ml • Any Flavour
+
+id: 25 code(plu): 6524 name: Mountain Dew desc: 591ml • Any Flavour
+
+id: 26 code(plu): 6525 name: Brisk desc: 710ml • Any Flavour
+
+id: 28 code(plu): 6545 name: Red Bull Buy One Get One desc: 250ml • Any Variety
+
+id: 30 code(plu): 6533 name: Reese Outrageous Buy One Get One desc: 41g • Regular size
+
+id: 50 code(plu): 6501 name: Favourites Candy desc: 113 - 198g • Any variety
+
+id: 51 code(plu): 6501 name: Favourites Candy desc: 113 - 198g • Any variety
+
+id: 54 code(plu): 6527 name: Favourites Candy Buy One Get One desc: 113 - 198g • Any variety
+
+id: 52 code(plu): 6501 name: Favourites Candy desc: 113 - 198g • Any variety
+
+id: 55 code(plu): 6527 name: Favourites Candy Buy One Get One desc: 113 - 198g • Any variety
+
+id: 53 code(plu): 6501 name: Favourites Candy desc: 113 - 198g • Any variety
+
+id: 56 code(plu): 6527 name: Favourites Candy Buy One Get One desc: 113 - 198g • Any variety
+
+id: 57 code(plu): 6527 name: Favourites Candy Buy One Get One desc: 113 - 198g • Any variety
+
+id: 58 code(plu): 6503 name: Favourites Chips desc: 66g • Any Variety
+
+id: 59 code(plu): 6503 name: Favourites Chips desc: 66g • Any Variety
+
+id: 61 code(plu): 6503 name: Favourites Chips desc: 66g • Any Variety
+
+id: 62 code(plu): 6528 name: Favourites Chips Buy One Get One desc: 66g • Any Variety
+
+id: 65 code(plu): 6528 name: Favourites Chips Buy One Get One desc: 66g • Any Variety
+
+id: 63 code(plu): 6528 name: Favourites Chips Buy One Get One desc: 66g • Any Variety
+
+id: 64 code(plu): 6528 name: Favourites Chips Buy One Get One desc: 66g • Any Variety
+
+id: 60 code(plu): 6503 name: Favourites Chips desc: 66g • Any Variety
+
+id: 67 code(plu): 6504 name: Joker Energy Drink desc: 473ml • Any Flavour
+
+id: 66 code(plu): 6504 name: Joker Energy Drink desc: 473ml • Any Flavour
+
+id: 68 code(plu): 6504 name: Joker Energy Drink desc: 473ml • Any Flavour
+
+id: 69 code(plu): 6504 name: Joker Energy Drink desc: 473ml • Any Flavour
+
+id: 70 code(plu): 6529 name: Joker Energy Drink Buy One Get One desc: 473ml • Any Flavour
+
+id: 71 code(plu): 6529 name: Joker Energy Drink Buy One Get One desc: 473ml • Any Flavour
+
+id: 73 code(plu): 6529 name: Joker Energy Drink Buy One Get One desc: 473ml • Any Flavour
+
+id: 75 code(plu): 4408 name: Medium Froster desc: Any Flavour
+
+id: 74 code(plu): 4408 name: Medium Sloche desc: Any Flavour
+
+id: 72 code(plu): 6529 name: Joker Energy Drink Buy One Get One desc: 473ml • Any Flavour
+
+id: 76 code(plu): 4408 name: Medium Froster desc: Any Flavour
+
+id: 79 code(plu): 4419 name: Froster Buy One Get One desc: Any size •  Any Flavour
+
+id: 77 code(plu): 4408 name: Medium Froster desc: Any Flavour
+
+id: 78 code(plu): 4419 name: Sloche Buy One Get One desc: Any size •  Any Flavour
+
+id: 81 code(plu): 4419 name: Froster Buy One Get One desc: Any size •  Any Flavour
+
+id: 80 code(plu): 4419 name: Froster Buy One Get One desc: Any size •  Any Flavour
+
+id: 82 code(plu): 4409 name: Polar Pop desc: Regular 30 Oz •  Any Flavour
+
+id: 83 code(plu): 4409 name: Polar Pop desc: Regular 30 Oz •  Any Flavour
+
+id: 84 code(plu): 4409 name: Polar Pop desc: Regular 30 Oz •  Any Flavour
+
+id: 85 code(plu): 4420 name: Polar Pop Buy One Get One desc: Any size •  Any Flavour
+
+id: 87 code(plu): 4420 name: Polar Pop Buy One Get One desc: Any size •  Any Flavour
+
+id: 86 code(plu): 4420 name: Polar Pop Buy One Get One desc: Any size •  Any Flavour
+
+id: 88 code(plu): 4407 name: Medium Coffee desc: Any regular or speciality coffee
+
+id: 89 code(plu): 4407 name: Medium Coffee desc: Any regular or speciality coffee
+
+id: 90 code(plu): 4407 name: Medium Coffee desc: Any regular or speciality coffee
+
+id: 91 code(plu): 4407 name: Medium Coffee desc: Any regular or speciality coffee
+
+id: 93 code(plu): 4418 name: Coffee Buy One Get One desc: Any regular or speciality coffee
+
+id: 92 code(plu): 4418 name: Coffee Buy One Get One desc: Any regular or speciality coffee
+
+id: 95 code(plu): 6505 name: Favourites Water desc: 500ml
+
+id: 94 code(plu): 4418 name: Coffee Buy One Get One desc: Any regular or speciality coffee
+
+id: 96 code(plu): 6505 name: Favourites Water desc: 500ml
+
+id: 97 code(plu): 6505 name: Favourites Water desc: 500ml
+
+id: 99 code(plu): 6530 name: Favourites Water Buy One Get One desc: 500ml
+
+id: 98 code(plu): 6505 name: Favourites Water desc: 500ml
+
+id: 100 code(plu): 6530 name: Favourites Water Buy One Get One desc: 500ml
+
+id: 101 code(plu): 6530 name: Favourites Water Buy One Get One desc: 500ml
+
+id: 102 code(plu): 6506 name: Real Hot Dog desc: Unlimited toppings
+
+id: 103 code(plu): 6506 name: Real Hot Dog desc: Unlimited toppings
+
+id: 104 code(plu): 6506 name: Real Hot Dog desc: Unlimited toppings
+
+id: 105 code(plu): 6531 name: Real Hot Dog Buy One Get One desc: Unlimited toppings
+
+id: 107 code(plu): 6531 name: Real Hot Dog Buy One Get One desc: Unlimited toppings
+
+id: 106 code(plu): 6531 name: Real Hot Dog Buy One Get One desc: Unlimited toppings
+
+id: 109 code(plu): 6507 name: Favourites Nuts desc: 71g • Any variety
+
+id: 108 code(plu): 6507 name: Favourites Nuts desc: 71g • Any variety
+
+id: 110 code(plu): 6507 name: Favourites Nuts desc: 71g • Any variety
+
+id: 111 code(plu): 6507 name: Favourites Nuts desc: 71g • Any variety
+
+id: 112 code(plu): 6532 name: Favourites Nuts Buy One Get One desc: 71g • Any variety
+
+id: 113 code(plu): 6532 name: Favourites Nuts Buy One Get One desc: 71g • Any variety
+
+id: 114 code(plu): 6532 name: Favourites Nuts Buy One Get One desc: 71g • Any variety
+
+id: 115 code(plu): 6532 name: Favourites Nuts Buy One Get One desc: 71g • Any variety
